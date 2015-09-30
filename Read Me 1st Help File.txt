@@ -1,0 +1,35 @@
+It is a little program (with Win-XP style icon) that is like virus but it is not actually a virus.
+This program is valid for Windows 98/XP.
+This program is made in Microsoft Visual C++ 6.0 by me (Aamir Shahzad).
+If you face any problem, kindly inform me.
+-----------------------------------------
+PROGRAM DESCRIPTION
+-----------------------------------------
+1. This program will run it self after 3 to 10 second. If any of button is clicked
+then two more program will be opened.
+ 
+--------------------------------------
+HOW THIS WILL START
+--------------------------------------
+2. First of all this program looks like a windows folder so any body may try to
+open this folder but as this is actullay is program so this will run and it is
+activated.
+3. Once this program run on a PC with Windows 98/XP, it will place its entry in
+Windows start menu i.e.
+"C:\Documents and Settings\<Your user name>\Start Menu\Programs\Startup".
+3.1 This mean that this program will always run every time when you logon to your
+system.
+ 
+-----------------------
+HOW TO STOP
+------------------------
+4. You can stop this program by logon with different user of type administrator and
+delete the file entry in start menu i.e. in
+"C:\Documents and Settings\<Your user name>\Start Menu\Programs\Startup".
+4.1 OR you may log in Safe mode and repeat the same process given above.
+4.2 OR if you have only one user then you need to boot in DOS mode and use these
+commands
+CD "C:\Documents and Settings\<Your user name>\Start Menu\Programs\Startup".
+and DEL TimerVirus2.exe
+5. Use this program or Send to your friends for Joking but after all tell them the
+solution.

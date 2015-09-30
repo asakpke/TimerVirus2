@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TimerVirus2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/TimerVirus2.res" /d "NDEBUG" /d "_AFXDLL" "H:\Temp\VC\TimerVirus2\TimerVirus2.rc"" 
+Creating temporary file "D:\DOCUME~1\Guest\LOCALS~1\Temp\RSP2.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/TimerVirus2.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Temp\VC\TimerVirus2\TimerVirus2.cpp"
+"H:\Temp\VC\TimerVirus2\TimerVirus2Dlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Guest\LOCALS~1\Temp\RSP2.tmp" 
+Creating temporary file "D:\DOCUME~1\Guest\LOCALS~1\Temp\RSP3.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/TimerVirus2.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Temp\VC\TimerVirus2\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Guest\LOCALS~1\Temp\RSP3.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/TimerVirus2.pdb" /machine:I386 /out:"Release/TimerVirus2.exe"  .\Release\StdAfx.obj .\Release\TimerVirus2.obj .\Release\TimerVirus2Dlg.obj .\Release\TimerVirus2.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+TimerVirus2.cpp
+TimerVirus2Dlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+TimerVirus2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
